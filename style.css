@@ -437,6 +437,25 @@ body.login-layout {
 .volunteer-photo:hover .social-overlay {
   opacity: 1;
 }
+.nutrition-box {
+  background: rgba(14, 138, 109, 0.05);
+  border: 1px solid rgba(14, 138, 109, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.nutrition-box h3 {
+  color: #0e8a6d;
+  margin-bottom: 12px;
+}
+.nutrition-box ul {
+  padding-left: 20px;
+}
+.nutrition-box ul li {
+  margin-bottom: 8px;
+}
+
 
 .social-overlay a {
   color: #fff;
