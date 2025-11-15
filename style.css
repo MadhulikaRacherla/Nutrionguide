@@ -14,7 +14,7 @@ html { scroll-behavior: smooth; }
 /* Navbar */
 .navbar { display: flex; align-items: center; justify-content: space-between; background: #fff; padding: 14px 20px; border-bottom: 1px solid #e9e9e9; position: sticky; top: 0; z-index: 50; }
 .logo {
-  height: 48px;
+  height: 64px;
   width: auto;
   object-fit: contain;
 }
