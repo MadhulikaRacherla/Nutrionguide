@@ -463,4 +463,38 @@ body.login-layout {
   margin: 6px 0;
   font-weight: bold;
 }
+.age-card {
+  background: #ffffff;
+  border: 2px solid #0e8a6d;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.age-card:hover {
+  transform: scale(1.01);
+}
+.age-card h3 {
+  color: #0e8a6d;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+.age-card ul {
+  padding-left: 20px;
+}
+.age-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.nutrition-banner {
+  text-align: center;
+  margin: 24px 0;
+}
+.nutrition-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
 
