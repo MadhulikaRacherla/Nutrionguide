@@ -9,6 +9,39 @@ html { scroll-behavior: smooth; }
 .top-bar a:hover { text-decoration: underline; }
 
 }
+.week-box {
+  background: rgba(14, 138, 109, 0.08);
+  border: 1px solid rgba(14, 138, 109, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.week-box h3 {
+  color: #0e8a6d;
+  margin-bottom: 12px;
+}
+.week-box ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+.week-box ul li {
+  margin-bottom: 8px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  object-fit: cover;
+}
+
 
 
 /* Navbar */
